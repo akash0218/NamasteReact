@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="./index.css"><link/>
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- creating hello world using js -->
+    <!-- <script>
+
+        const heading = document.createElement("h1");
+        heading.innerHTML = "Hello World from JavaScript!!"
+
+        const root = document.getElementById("root");
+        root.appendChild(heading)
+
+    </script> -->
+    
+
+    <!-- first way of injecting react into our project -->
+    <!-- by these cdn links our browser understands react -->
+    <!-- react at the end is the javascript, react is a javascript library -->
+    <!-- importing react code into our project -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+
+    <!-- react files for modifying dom -->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- creating hellow world using react -->
+    <script src="./App.js"></script>
+</body>
+</html>
